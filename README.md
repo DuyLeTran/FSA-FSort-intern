@@ -70,6 +70,10 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
+**Alternative**: If you don't want to create a superuser, you can use the default admin account:
+- **Username**: `tranleduy`
+- **Password**: `tranleduy`
+
 ### 7. Run the Development Server
 ```bash
 python manage.py runserver
